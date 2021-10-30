@@ -1,0 +1,4 @@
+geometry_msgs/Pose pose
+float64 planning_time
+string planning_state
+bool plan_success
