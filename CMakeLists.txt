@@ -15,13 +15,17 @@ set(srv_files
   srv/Locations.srv
 )
 
+set(msg_files
+  msg/PlanningInfo.msg
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   ament_lint_auto_find_test_dependencies()
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  #${msg_files}
+  ${msg_files}
   ${srv_files}
   DEPENDENCIES builtin_interfaces geometry_msgs
   ADD_LINTER_TESTS
