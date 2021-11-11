@@ -1,0 +1,6 @@
+-
+  ros1_package_name: 'vision_engine'
+  ros1_service_name: 'Locations'
+  ros2_package_name: 'ur5_msgs'
+  ros2_service_name: 'Locations'
+
