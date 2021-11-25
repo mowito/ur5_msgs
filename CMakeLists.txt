@@ -13,6 +13,11 @@ find_package(geometry_msgs REQUIRED)
 
 set(srv_files
   srv/Locations.srv
+  srv/Pick.srv
+  srv/PickHome.srv
+  srv/PickHome2Place.srv
+  srv/Place2PickHome.srv
+  srv/VisionEngineMode.srv
 )
 
 set(msg_files

@@ -1,0 +1,9 @@
+uint8_t home_id =0
+geometry_msgs/Pose home_coords
+
+geometry_msgs/Pose pick_coords
+
+
+---
+
+bool bSuccess
