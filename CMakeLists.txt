@@ -36,6 +36,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ADD_LINTER_TESTS
 )
 
+install(
+  FILES message_mappings.yaml
+  DESTINATION share/${PROJECT_NAME})
+  
 ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
