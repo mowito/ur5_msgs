@@ -1,0 +1,9 @@
+uint8 homeid 
+geometry_msgs/Pose homecoords
+
+uint8 placeid 
+geometry_msgs/Pose placecoords
+
+---
+
+bool bsuccess
