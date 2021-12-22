@@ -1,0 +1,4 @@
+---
+bool status
+float64 position
+bool in_motion
