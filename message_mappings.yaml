@@ -1,10 +1,10 @@
 -
-  ros1_package_name: 'depth_engine'
+  ros1_package_name: 'vision_msgs'
   ros1_service_name: 'Locations'
   ros2_package_name: 'ur5_msgs'
   ros2_service_name: 'Locations'
 -
-  ros1_package_name: 'depth_engine'
+  ros1_package_name: 'vision_msgs'
   ros1_service_name: 'VisionEngineMode'
   ros2_package_name: 'ur5_msgs'
   ros2_service_name: 'VisionEngineMode'
