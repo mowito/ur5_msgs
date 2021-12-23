@@ -1,0 +1,5 @@
+uint8 sku_id
+geometry_msgs/Point unit_location
+ur5_msgs/Bucket bucket_info
+float64 time_taken
+bool manual_intervention

@@ -18,10 +18,19 @@ set(srv_files
   srv/PickHome2Place.srv
   srv/Place2PickHome.srv
   srv/VisionEngineMode.srv
+  srv/Mission.srv
+  srv/Order.srv
 )
 
 set(msg_files
   msg/PlanningInfo.msg
+  msg/Bucket.msg
+  msg/MissionStatus.msg
+  msg/RobotStatus.msg
+  msg/Sku.msg
+  msg/SkuCurrent.msg
+  msg/SkuSkipped.msg
+  msg/OrderStatus.msg
 )
 
 if(BUILD_TESTING)
