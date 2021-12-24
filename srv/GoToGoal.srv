@@ -1,4 +1,4 @@
-geometry_msgs/Pose goal  #stores the position and orientation of base link frame of the system
+geometry_msgs/Point goal  #stores the position and orientation of base link frame of the system
 uint8 HOME = 0     #enum for home coordinates as goal, the home cooridinates could either be passes in goal or accessed from local data in the mobile base node
 uint8 CRATE =1   #enum for Crate Coordinates as goal, expects goal to be filled
 uint8 HORIZONTAL =2 #enum for only horizontal goal i.e x cooridinate goal, expects goal to be passed but process only the x coordinate
