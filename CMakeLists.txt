@@ -31,6 +31,7 @@ set(msg_files
   msg/SkuCurrent.msg
   msg/SkuSkipped.msg
   msg/OrderStatus.msg
+  msg/Order.msg
 )
 
 if(BUILD_TESTING)

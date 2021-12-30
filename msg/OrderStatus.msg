@@ -4,6 +4,13 @@ int32[] sku_units
 bool[] manual_intervention
 
 
+### 
+
+ur5_msgs/Order current_order
+string order_state
+float64 order_state_time
+float64 order_time
+
 #current-order-id
 #Order Status-- processing/pending/fullfilled/na
 #for each sku start

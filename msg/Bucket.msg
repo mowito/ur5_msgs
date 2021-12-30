@@ -1,1 +1,1 @@
-int32 bucket_num
+string bucket_side

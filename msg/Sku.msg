@@ -1,4 +1,7 @@
-uint8 sku_id
+string sku_id
+uint32 unit_quantity
+uint32 remaining_units
+string sku_status
 geometry_msgs/Point unit_location
 ur5_msgs/Bucket bucket_info
 float64 time_taken

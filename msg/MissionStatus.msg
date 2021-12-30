@@ -1,9 +1,12 @@
-ur5_msgs/Sku[] skus
-ur5_msgs/SkuCurrent sku_current
-ur5_msgs/Sku[] skus_skipped
-ur5_msgs/RobotStatus robot_status
 
 
+###
+
+ur5_msgs/Order[] orders
+string mission_status
+string mission_state
+float64 mission_time
+float64 mission_state_time
 #Mission Status -- unavialable/active/complete /Na
 #mission state -- Loading Order/ Processing Order/ Delivering Order/ Na
 
