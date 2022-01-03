@@ -20,6 +20,11 @@ set(srv_files
   srv/VisionEngineMode.srv
   srv/Mission.srv
   srv/Order.srv
+  srv/GoToGoal.srv
+
+  srv/MotorStatus.srv
+  srv/PositionControl.srv
+  srv/PushPullArmControl.srv
 )
 
 set(msg_files
