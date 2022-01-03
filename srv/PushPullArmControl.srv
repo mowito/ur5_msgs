@@ -1,0 +1,11 @@
+# command:  - "push_crate" (arg1=forward_time_in_milli_second; arg2=backward_time_in_milli_second)
+#           - "pull_crate" (arg1=forward_time_in_milli_second; arg2=backward_time_in_milli_second)
+#           - "meg" (arg1="ON" or "OFF"; arg2=None)
+#           - "pll" (arg1="ON" or "OFF"; arg2=time_for_which_switch_is_triggered_in_milli_second, eg: "1000" or "300")
+#           - "psh" (arg1="ON" or "OFF"; arg2=time_for_which_switch_is_triggered_in_milli_second, eg: "1000" or "300")
+
+string command
+string arg1 ""
+string arg2 ""
+---
+bool status
