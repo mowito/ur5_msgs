@@ -1,0 +1,3 @@
+bool get_status
+---
+ur5_msgs/MissionStatus mission_stat

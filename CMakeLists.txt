@@ -27,6 +27,14 @@ set(srv_files
 
 set(msg_files
   msg/PlanningInfo.msg
+  msg/Bucket.msg
+  msg/MissionStatus.msg
+  msg/RobotStatus.msg
+  msg/Sku.msg
+  msg/SkuCurrent.msg
+  msg/SkuSkipped.msg
+  msg/OrderStatus.msg
+  msg/Order.msg
 )
 
 if(BUILD_TESTING)
