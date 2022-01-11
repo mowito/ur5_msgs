@@ -1,4 +1,4 @@
-uint8 sku_id
-float64[] unit_locations
+string sku_id
+geometry_msgs/Point unit_locations
 float64 time_taken
 

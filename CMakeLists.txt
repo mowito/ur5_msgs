@@ -18,6 +18,8 @@ set(srv_files
   srv/PickHome2Place.srv
   srv/Place2PickHome.srv
   srv/VisionEngineMode.srv
+  srv/Mission.srv
+  srv/Order.srv
   srv/GoToGoal.srv
 
   srv/MotorStatus.srv
