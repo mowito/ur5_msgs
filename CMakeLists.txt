@@ -23,7 +23,7 @@ set(srv_files
   srv/MotorStatus.srv
   srv/PositionControl.srv
   srv/PushPullArmControl.srv
-  srv/XmlOrder.srv
+  srv/OrderFile.srv
 )
 
 set(msg_files
@@ -36,8 +36,8 @@ set(msg_files
   msg/SkuSkipped.msg
   msg/OrderStatus.msg
   msg/Order.msg
-  msg/XmlOrder.msg
-  msg/XmlOrderList.msg
+  msg/OrderFile.msg
+  msg/OrderFileList.msg
 )
 
 if(BUILD_TESTING)
