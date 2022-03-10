@@ -1,0 +1,9 @@
+float64[] target_state #could be joint state or tool tip pose base on planning_space
+int32 planning_space
+#enum for planning_space
+int32 JOINT_SPACE=0
+int32 CARTESIAN_SPACE=1
+---
+moveit_msgs/RobotTrajectory trajectory  # A solution trajectory, if found
+moveit_msgs/MoveItErrorCodes error_code # Error code - encodes the overall reason for failure
+float64 planning_time                   # Planning time (in seconds)
