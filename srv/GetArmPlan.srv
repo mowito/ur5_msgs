@@ -1,9 +1,20 @@
-float64[] target_state #could be joint state or tool tip pose base on planning_space
-int32 planning_space
+ #could be joint state or tool tip pose based on planning scene
+float64[] start_state
+#could be joint state or tool tip pose based on planning_space
+float64[] target_state
+#limit workspace w.r.t the baselink {minx,miny,minz,maxx,maxy,maxz}
+float64[] workspace
+#seed for IK solver only needed if start or end state are in tool space.
+float64[] ik_seed
+int32 planning_space_start_state
+int32 planning_space_target_state
 #enum for planning_space
 int32 JOINT_SPACE=0
 int32 CARTESIAN_SPACE=1
 ---
-moveit_msgs/RobotTrajectory trajectory  # A solution trajectory, if found
-moveit_msgs/MoveItErrorCodes error_code # Error code - encodes the overall reason for failure
-float64 planning_time                   # Planning time (in seconds)
+# solution trajectories, if found
+moveit_msgs/RobotTrajectory[] trajectories
+# Error code - encodes the overall reason for failure
+moveit_msgs/MoveItErrorCodes[] error_codes
+# Planning time (in seconds)
+float64[] planning_time
