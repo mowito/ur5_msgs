@@ -6,4 +6,4 @@ geometry_msgs/Pose homecoords
 
 ---
 bool bsuccess
-ur5_msgs/ErrorCodes errorcode
+ur5_msgs/ErrorCodes error_code
