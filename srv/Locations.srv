@@ -1,4 +1,4 @@
 bool initiate
 ---
-geometry_msgs/Point[] points
+geometry_msgs/Pose[] points
 bool bsuccess

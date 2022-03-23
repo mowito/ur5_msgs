@@ -9,8 +9,8 @@ float64[] ik_seed
 int32 planning_space_start_state
 int32 planning_space_target_state
 #enum for planning_space
-int32 JOINT_SPACE=0
-int32 CARTESIAN_SPACE=1
+int32 JOINT_SPACE=1
+int32 CARTESIAN_SPACE=0
 ---
 # solution trajectories, if found
 moveit_msgs/RobotTrajectory[] trajectories
