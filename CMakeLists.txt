@@ -28,6 +28,8 @@ set(srv_files
   srv/PushPullArmControl.srv
   srv/OrderFile.srv
   srv/GetArmPlan.srv
+  srv/GetCurrentJointState.srv
+  srv/ExecuteTrajectory.srv
 )
 
 set(msg_files

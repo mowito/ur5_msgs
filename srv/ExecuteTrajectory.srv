@@ -1,0 +1,6 @@
+moveit_msgs/RobotTrajectory trajectory
+---
+# Error code - encodes the overall reason for failure
+moveit_msgs/MoveItErrorCodes error_code
+#Actual execution time
+float64 execution_time
