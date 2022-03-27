@@ -6,11 +6,17 @@ float64[] target_state
 float64[] workspace
 #seed for IK solver only needed if start or end state are in tool space.
 float64[] ik_seed
+#planning space -- cartesian or in joint state
 int32 planning_space_start_state
 int32 planning_space_target_state
 #enum for planning_space
 int32 JOINT_SPACE=1
 int32 CARTESIAN_SPACE=0
+#velocity scaling factor range = (0,1]
+float64 velocity_scaling_factor
+#enum for scaling factor, 2 modes normal and jogging
+float64 JOGGING = 0.2
+float64 NORMAL = 1.0
 ---
 # solution trajectories, if found
 moveit_msgs/RobotTrajectory[] trajectories
