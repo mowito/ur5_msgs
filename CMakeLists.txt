@@ -33,6 +33,7 @@ set(srv_files
 )
 
 set(msg_files
+  msg/ErrorCodes.msg
   msg/PlanningInfo.msg
   msg/Bucket.msg
   msg/MissionStatus.msg
