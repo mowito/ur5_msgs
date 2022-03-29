@@ -1,4 +1,5 @@
 bool initiate
+string sku_id
 ---
 geometry_msgs/Pose[] points
 bool bsuccess
