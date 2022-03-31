@@ -7,3 +7,4 @@ geometry_msgs/Pose placecoords
 ---
 
 bool bsuccess
+ur5_msgs/ErrorCodes error_code
