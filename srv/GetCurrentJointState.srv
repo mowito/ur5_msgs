@@ -1,0 +1,6 @@
+bool trigger
+---
+# robotstate
+float64[] joint_state
+# Error code - encodes the overall reason for failure
+moveit_msgs/MoveItErrorCodes error_code

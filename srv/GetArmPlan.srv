@@ -1,0 +1,32 @@
+#srv for getting plans, if more than one pair of start and target state is present, planning is done parallel
+
+#could be joint state or tool tip poses based on planning scene, for multiple plans, just append start state in order
+float64[] start_states
+#could be joint state or tool tip poses based on planning_space, for multiple plans, just append target states is 
+#corresponding to start_states
+float64[] target_states
+#limit workspace w.r.t the baselink {minx,miny,minz,maxx,maxy,maxz}, single workspace limits for multiple plans
+float64[] workspace
+#seed for IK solver only needed if start or end state are in tool space, single ik seed for all plans
+float64[] ik_seed
+#planning space -- cartesian or in joint state, corresponding to the start_states order
+int32[] planning_space_start_states
+#planning space -- cartesian or in joint state, corresponding to the target_states order
+int32[] planning_space_target_states
+#enum for planning_space
+int32 JOINT_SPACE=1
+int32 CARTESIAN_SPACE=0
+#velocity scaling factor range = (0,1], corresponing to each plan
+float64[] velocity_scaling_factors
+#enum for scaling factor, 2 modes normal and jogging
+float64 JOGGING = 0.2
+float64 NORMAL = 1.0
+#constraints for each plan,currently only using orientation constraints
+moveit_msgs/Constraints[] constraints 
+---
+# solution trajectories, if found
+moveit_msgs/RobotTrajectory[] trajectories
+# Error code - encodes the overall reason for failure
+moveit_msgs/MoveItErrorCodes[] error_codes
+# Planning time (in seconds)
+float64[] planning_time
