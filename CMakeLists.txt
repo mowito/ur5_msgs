@@ -31,6 +31,7 @@ set(srv_files
   srv/GetArmPlan.srv
   srv/GetCurrentJointState.srv
   srv/ExecuteTrajectory.srv
+  srv/TfService.srv
 )
 
 set(msg_files
