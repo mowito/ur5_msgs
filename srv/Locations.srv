@@ -1,10 +1,10 @@
 bool initiate
 string sku_id
 uint8 side
-uint8 x_max
-uint8 y_max
-uint8 x_min
-uint8 y_min
+uint32 x_max
+uint32 y_max
+uint32 x_min
+uint32 y_min
 ---
 geometry_msgs/Pose[] points
 bool bsuccess
