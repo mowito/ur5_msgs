@@ -7,3 +7,4 @@ ur5_msgs/Bucket bucket_info
 float64 time_taken
 bool manual_intervention
 string pick_side
+int16 sub_section
