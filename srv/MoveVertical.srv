@@ -1,5 +1,5 @@
 
-uint8 dist 0
+int32 dist 0
 
 ---
 
