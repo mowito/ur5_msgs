@@ -13,10 +13,10 @@ find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
 
 set(srv_files
-  srv/MoveVertical.srv
-  srv/PlcCommand.srv
+  srv/plc_srvs/AlarmSignals.srv
+  srv/plc_srvs/MoveVertical.srv
+  srv/plc_srvs/PlcCommand.srv
 
-  srv/AlarmSignals.srv
   srv/Locations.srv
   srv/Pick.srv
   srv/PickHome.srv
