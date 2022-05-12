@@ -1,3 +1,4 @@
+bool data
 ---
 geometry_msgs/Point[] obstacle_location
 bool bsuccess
