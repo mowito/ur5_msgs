@@ -1,5 +1,6 @@
 
 int32 dist 0
+string rack_side
 
 ---
 
