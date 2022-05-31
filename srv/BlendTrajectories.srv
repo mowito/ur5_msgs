@@ -1,0 +1,5 @@
+moveit_msgs/RobotTrajectory[] trajectories
+---
+# Error code - encodes the overall reason for failure
+moveit_msgs/MoveItErrorCodes error_code
+moveit_msgs/RobotTrajectory blended_trajectory

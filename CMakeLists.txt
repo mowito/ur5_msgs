@@ -35,6 +35,7 @@ set(srv_files
   srv/GetCurrentJointState.srv
   srv/ExecuteTrajectory.srv
   srv/TfService.srv
+  srv/BlendTrajectories.srv
 )
 
 set(msg_files
