@@ -14,6 +14,7 @@ find_package(moveit_msgs REQUIRED)
 
 set(srv_files
   srv/plc_srvs/AlarmSignals.srv
+  srv/plc_srvs/MoveToAisle.srv
   srv/plc_srvs/MoveVertical.srv
   srv/plc_srvs/PlcCommand.srv
 
