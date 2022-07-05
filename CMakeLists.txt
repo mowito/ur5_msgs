@@ -18,6 +18,8 @@ set(srv_files
   srv/plc_srvs/MoveHorizontal.srv
   srv/plc_srvs/MoveVertical.srv
   srv/plc_srvs/PlcCommand.srv
+  srv/plc_srvs/SetAisle.srv
+  srv/plc_srvs/GetAisle.srv
 
   srv/Locations.srv
   srv/Pick.srv
