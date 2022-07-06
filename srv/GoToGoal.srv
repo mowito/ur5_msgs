@@ -5,6 +5,7 @@ uint8 HORIZONTAL =2 #enum for only horizontal goal i.e x cooridinate goal, expec
 uint8 VERTICAL =2 #enum for only Vertical goal i.e z coordinate goal. expects goal to be passed but processes only z coorindate
 uint8 GENERAL =3 #enum for any other genral pose goal, expects goal to be passed
 uint8 goal_type   #to indicated the goal type
+uint8 aisle_id
 ---
 bool bsuccess #returns true acknoledgment if goal reached successfully else false
 string message  #relevant message along with acknowlegdement
