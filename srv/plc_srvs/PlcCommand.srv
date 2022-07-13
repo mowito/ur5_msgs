@@ -4,3 +4,4 @@ string command
 ---
 
 bool bsuccess
+ur5_msgs/ErrorCodes error_code
