@@ -1,0 +1,7 @@
+
+string reg_addr
+uint32 data
+
+---
+
+bool success
