@@ -1,0 +1,9 @@
+
+int32 vert_dist
+float32 hor_dist
+string rack_side
+
+---
+
+bool vert_success
+bool hor_success
