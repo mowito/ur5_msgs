@@ -6,6 +6,7 @@ uint8 VERTICAL =2 #enum for only Vertical goal i.e z coordinate goal. expects go
 uint8 GENERAL =3 #enum for any other genral pose goal, expects goal to be passed
 uint8 goal_type   #to indicated the goal type
 uint8 aisle_id
+string replenish_command "no_command"
 ---
 bool bsuccess #returns true acknoledgment if goal reached successfully else false
 string message  #relevant message along with acknowlegdement
