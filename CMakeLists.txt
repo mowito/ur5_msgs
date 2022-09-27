@@ -37,7 +37,7 @@ set(srv_files
   srv/MotorStatus.srv
   srv/PositionControl.srv
   srv/PushPullArmControl.srv
-  srv/OrderFileSrv.srv
+  srv/OrderFile.srv
   srv/GetArmPlan.srv
   srv/GetCurrentJointState.srv
   srv/ExecuteTrajectory.srv
