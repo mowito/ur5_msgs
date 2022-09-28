@@ -39,6 +39,7 @@ set(srv_files
   srv/PushPullArmControl.srv
   srv/OrderFile.srv
   srv/GetArmPlan.srv
+  srv/GetGompTrajectory.srv
   srv/GetCurrentJointState.srv
   srv/ExecuteTrajectory.srv
   srv/TfService.srv

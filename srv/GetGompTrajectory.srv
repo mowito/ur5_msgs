@@ -1,0 +1,10 @@
+
+sensor_msgs/JointState[] waypoints
+
+---
+# solution trajectory, if found
+moveit_msgs/RobotTrajectory trajectory
+# Error code - encodes the overall reason for failure
+moveit_msgs/MoveItErrorCodes[] error_codes
+# Planning time (in seconds)
+float64 planning_time
