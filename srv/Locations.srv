@@ -1,10 +1,10 @@
 bool initiate
 string sku_id
-uint8 side
-uint32 x_max
-uint32 y_max
-uint32 x_min
-uint32 y_min
+uint8 side	#side of the rack
+uint32 x_max  #x coordinate of bottom right corner of  subsection bbox 
+uint32 y_max	#y coordinate of bottom right corner of  subsection bbox
+uint32 x_min	#x coordinate of top left corner of  subsection bbox
+uint32 y_min	#y coordinate of top left corner of  subsection bbox
 ---
-geometry_msgs/Pose[] points
+geometry_msgs/Pose[] points   #3d pose in camera optical frame for only centroids which lie in feasible region of image
 bool bsuccess
