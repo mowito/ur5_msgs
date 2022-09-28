@@ -6,7 +6,7 @@ uint8 VERTICAL =2 #enum for only Vertical goal i.e z coordinate goal. expects go
 uint8 GENERAL =3 #enum for any other genral pose goal, expects goal to be passed
 
 # enums for replenish_command
-uint8 NO_REPLENISMENT=0
+uint8 NO_REPLENISHMENT=0
 uint8 RETRIEVE=1
 uint8 STORE=2
 
