@@ -1,0 +1,17 @@
+Header header  #std_msgs/header. all service requests should have a header consisting of seq, timestamp, frame(whoch might stor eiher relevantcoordibnate frame or the node name making service request)
+uint64 id #unique id of the mission request simmilar to order id
+uint16 robo_id #unique robo id per station
+
+string bin_id  #unique id of crate/bin from which sku is to be picked
+string sku_id  #unique sku id which is to be picked from the bin/crate
+
+float64 qty    #units of the sku_id to be picked 
+string station_id  #id of the station where robo is parked
+
+string status #it is forwared by sql-order-control after readig from the sql table. This is for double check on mission manager side.
+
+
+---
+
+bool bsuccess    #stores whether the following serviuce request was successfull or not . Note it should not be misundestood with the successfullness of whether the service was recieved at server end or not
+string message   #stores a small message from the server side. may store relvant brief of why servuce request was not successfull.
