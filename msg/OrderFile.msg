@@ -1,11 +1,13 @@
 string[] sku_id
+string[] pick_bin_id
+
 uint32[] sku_quant
 uint32[] sku_quant_remaining
 uint32[] sku_home_ids
 uint8[] sku_bin_ids
 uint8[] aisle_ids
 int16[] sub_sections
-uint32 order_id
+uint64 order_id
 geometry_msgs/Point[] sku_locs
 
 #(x1,y1( (x2,y2) (x3,y3) (x4,y4) are pixel coordinates of of image representing subsecion corners in anti-clockwise sense starting from top left corner
