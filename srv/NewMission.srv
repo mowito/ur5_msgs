@@ -1,15 +1,15 @@
 Header header  #std_msgs/header. all service requests should have a header consisting of seq, timestamp, frame(whoch might stor eiher relevantcoordibnate frame or the node name making service request)
-uint64[] id #unique id of the mission request simmilar to order id
-uint16[] robo_id #unique robo id per station
+uint64[] ids #unique id of the mission request simmilar to order id
+uint16[] robo_ids #unique robo id per station
 
-string[] bin_id  #unique id of crate/bin from which sku is to be picked
-string[] sku_id  #unique sku id which is to be picked from the bin/crate
+string[] bin_ids  #unique id of crate/bin from which sku is to be picked
+string[] sku_ids  #unique sku id which is to be picked from the bin/crate
 
-float64[] qty    #units of the sku_id to be picked 
-string[] station_id  #id of the station where robo is parked
+float64[] qtys    #units of the sku_id to be picked 
+string[] station_ids  #id of the station where robo is parked
 
-string[] status #it is forwared by sql-order-control after readig from the sql table. This is for double check on mission manager side.
-
+string[] statuses #it is forwared by sql-order-control after readig from the sql table. This is for double check on mission manager side.
+uint16[] skus_per_order #stores n umber of skus in each order
 
 ---
 
