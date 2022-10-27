@@ -1,7 +1,7 @@
 
 
 ###
-Header header  #std_msgs/header. all topic messages should have a header consisting of seq, timestamp, frame(whoch might stor eiher relevantcoordibnate frame or the node name making service request)
+std_msgs/Header header  #std_msgs/header. all topic messages should have a header consisting of seq, timestamp, frame(whoch might stor eiher relevantcoordibnate frame or the node name making service request)
 
 uint64[] ids #unique id of the mission request simmilar to order id
 uint16[] robo_ids #unique robo id per station
@@ -15,5 +15,4 @@ float64[] req_qtys    #units of the sku_id to be picked
 float64[] pick_qtys    #units of the sku_id to be picked 
 
 string mission_manager_state  #state of outer state machine in mission manager
-
-builtin_interfaces/msg/Time[] response_times # time samp when picking is completed
+builtin_interfaces/Time[] response_times # time samp when picking is completed

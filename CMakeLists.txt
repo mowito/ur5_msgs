@@ -11,6 +11,7 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 
 set(srv_files
   srv/plc_srvs/AlarmSignals.srv
@@ -30,7 +31,7 @@ set(srv_files
   srv/PickHome2Place.srv
   srv/Place2PickHome.srv
   srv/VisionEngineMode.srv
-  srv/Mission.srv
+  srv/NewMission.srv
   srv/Order.srv
   srv/GoToGoal.srv
 
@@ -50,7 +51,7 @@ set(msg_files
   msg/ErrorCodes.msg
   msg/PlanningInfo.msg
   msg/Bucket.msg
-  msg/MissionStatus.msg
+   msg/MissionStatus.msg
   msg/RobotStatus.msg
   msg/Sku.msg
   msg/SkuCurrent.msg
@@ -69,7 +70,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES builtin_interfaces geometry_msgs moveit_msgs
+  DEPENDENCIES builtin_interfaces geometry_msgs moveit_msgs std_msgs
   ADD_LINTER_TESTS
 )
 
