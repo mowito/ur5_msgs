@@ -51,7 +51,7 @@ set(msg_files
   msg/ErrorCodes.msg
   msg/PlanningInfo.msg
   msg/Bucket.msg
-   msg/MissionStatus.msg
+  msg/MissionStatus.msg
   msg/RobotStatus.msg
   msg/Sku.msg
   msg/SkuCurrent.msg
