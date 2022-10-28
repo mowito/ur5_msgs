@@ -2,7 +2,10 @@ std_msgs/Header header  #std_msgs/header. all service requests should have a hea
 uint64[] ids #unique id of the mission request simmilar to order id
 uint16[] robo_ids #unique robo id per station
 
-string[] bin_ids  #unique id of crate/bin from which sku is to be picked
+string[] pick_bin_ids  #unique id of crate/bin from which sku is to be picked
+uint16[] pick_home_id #unique home id 
+string[] place_bin_ids  #unique id of crate/bin from which sku is to be placed
+uint16[] place_home_id #unique home id
 string[] sku_ids  #unique sku id which is to be picked from the bin/crate
 
 float64[] qtys    #units of the sku_id to be picked 
