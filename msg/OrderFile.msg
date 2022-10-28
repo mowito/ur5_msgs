@@ -2,8 +2,8 @@ uint64 order_id
 string[] sku_ids
 string[] pick_bin_ids
 string[] place_bin_ids
-uint32[] pick_home_ids
-uint32[] place_home_ids
+uint16[] pick_home_ids
+uint16[] place_home_ids
 uint32[] sku_quant
 uint32[] sku_quant_remaining
 bool[] sku_fulfillment_statuses
