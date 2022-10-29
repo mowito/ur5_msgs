@@ -14,6 +14,22 @@ string[] station_ids  #id of the station where robo is parked
 string[] statuses #it is forwared by sql-order-control after readig from the sql table. This is for double check on mission manager side.
 uint16[] skus_per_order #stores n umber of skus in each order
 
+
+uint8[] aisle_ids
+int16[] sub_sections
+
+geometry_msgs/Point[] sku_locs
+
+#(x1,y1( (x2,y2) (x3,y3) (x4,y4) are pixel coordinates of of image representing subsecion corners in anti-clockwise sense starting from top left corner
+int16[] coords_x1s   #array of all x1 coords
+int16[] coords_x2s   #array of all x2 coords
+int16[] coords_x3s   #array of all x3 coords
+int16[] coords_x4s   #array of all x4 coords
+
+int16[] coords_y1s   #array of all y1 coords
+int16[] coords_y2s   #array of all y2 coords
+int16[] coords_y3s   #array of all y3 coords
+int16[] coords_y4s   #array of all y4 coords
 ---
 
 bool bsuccess    #stores whether the following serviuce request was successfull or not . Note it should not be misundestood with the successfullness of whether the service was recieved at server end or not
