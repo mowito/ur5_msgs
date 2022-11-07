@@ -32,6 +32,7 @@ set(srv_files
   srv/Place2PickHome.srv
   srv/VisionEngineMode.srv
   srv/NewMission.srv
+  srv/Mission.srv
   srv/Order.srv
   srv/GoToGoal.srv
 

@@ -36,3 +36,39 @@ float64[] instances_remaining_in_inv    #units of the sku_id  picked 	#size of t
 
 string mission_manager_state  #state of outer state machine in mission manager
 builtin_interfaces/Time[] response_times # time samp when picking is completed  #size of this = number of orders
+
+
+#### for backward compatibilty with dexter configuration
+
+###
+
+ur5_msgs/Order[] orders
+string mission_status
+string mission_state
+float64 mission_time
+float64 mission_state_time
+#Mission Status -- unavialable/active/complete /Na
+#mission state -- Loading Order/ Processing Order/ Delivering Order/ Na
+
+#for each order start
+#order id1 -- 1/2/3/Na
+#Order Status-- processing/pending/fullfilled/na
+#for each sku start
+#item no -- 1/2/3/na
+#sku code -- 2x/3d/na
+#quantity -- 10/1/2/3/na
+#location.x -- 2.3/5.3/4.6/na
+#location.y -- ''
+#location.z -- ''
+#side -- left/right/na
+#units remaining -- 1/2/0/na
+#sku status -- processing/pending/fullfilled/na
+#sku time take -- 5/3.3/na
+#for each sku end
+#for each order end
+
+
+
+#mission-time -- 3.2/42/na
+#mission-state-time-- 3.3/43/na
+
