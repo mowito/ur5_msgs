@@ -31,6 +31,6 @@ int16[] coords_y4s   #array of all y4 coords
 string[] sku_id
 uint32[] sku_home_ids
 uint8[] sku_bin_ids
-uint32 order_id
+
 
 
