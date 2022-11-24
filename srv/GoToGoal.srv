@@ -9,6 +9,7 @@ uint8 GENERAL =3 #enum for any other genral pose goal, expects goal to be passed
 uint8 NO_REPLENISHMENT=0
 uint8 RETRIEVE=1
 uint8 STORE=2
+uint8 DELIVER=3
 
 uint8 goal_type   #to indicated the goal type
 uint8 aisle_id
