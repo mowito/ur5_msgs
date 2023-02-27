@@ -26,3 +26,11 @@ int16[] coords_y1s   #array of all y1 coords
 int16[] coords_y2s   #array of all y2 coords
 int16[] coords_y3s   #array of all y3 coords
 int16[] coords_y4s   #array of all y4 coords
+
+###for backward compatibility with dexter configuration
+string[] sku_id
+uint32[] sku_home_ids
+uint8[] sku_bin_ids
+
+
+
