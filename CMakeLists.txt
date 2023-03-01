@@ -47,6 +47,8 @@ set(srv_files
   srv/ExecuteTrajectory.srv
   srv/TfService.srv
   srv/BlendTrajectories.srv
+  srv/InferenceEngineChange.srv
+  srv/InferenceService.srv
 )
 
 set(msg_files
@@ -54,7 +56,10 @@ set(msg_files
   msg/PlanningInfo.msg
   msg/Bucket.msg
   msg/MissionStatus.msg
+  msg/DepthValues.msg
   msg/RobotStatus.msg
+  msg/MaskCoords.msg
+  msg/VisionExecutiveLog.msg
   msg/Sku.msg
   msg/SkuCurrent.msg
   msg/SkuSkipped.msg
