@@ -1,4 +1,5 @@
 bool initiate
+sensor_msgs/Image image_to_be_picked_from
 ---
 float64 x
 float64 y
