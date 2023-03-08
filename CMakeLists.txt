@@ -27,6 +27,7 @@ set(srv_files
 
   srv/Locations.srv
   srv/PollUserClickedPoint.srv
+  srv/InferenceEngineChange.srv 
   srv/Pick.srv
   srv/PickHome.srv
   srv/PickHome2Place.srv
@@ -47,7 +48,6 @@ set(srv_files
   srv/ExecuteTrajectory.srv
   srv/TfService.srv
   srv/BlendTrajectories.srv
-  srv/InferenceEngineChange.srv
   srv/InferenceService.srv
 )
 
@@ -58,7 +58,6 @@ set(msg_files
   msg/MissionStatus.msg
   msg/DepthValues.msg
   msg/RobotStatus.msg
-  msg/MaskCoords.msg
   msg/VisionExecutiveLog.msg
   msg/Sku.msg
   msg/SkuCurrent.msg
@@ -67,6 +66,8 @@ set(msg_files
   msg/Order.msg
   msg/OrderFile.msg
   msg/OrderFileList.msg
+  msg/MaskCoords.msg
+
 )
 
 if(BUILD_TESTING)
