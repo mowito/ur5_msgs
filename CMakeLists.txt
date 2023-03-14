@@ -67,6 +67,7 @@ set(msg_files
   msg/OrderFile.msg
   msg/OrderFileList.msg
   msg/MaskCoords.msg
+  msg/Bbox.msg
 
 )
 

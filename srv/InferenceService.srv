@@ -6,6 +6,7 @@ sensor_msgs/Image image_to_be_infered
 
 ---
 bool bsuccess
+bool bhydra
 sensor_msgs/Image merged_masks_image
 sensor_msgs/Image infered_image
 
@@ -13,4 +14,6 @@ sensor_msgs/Image infered_image
 MaskCoords[] list_mask_coords
 MaskCoords[] picking_points
 
-
+Bbox[] bbox_results
+sensor_msgs/Image picking_head_output
+sensor_msgs/Image[] mask_result
