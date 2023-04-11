@@ -17,4 +17,11 @@ MaskCoords[] picking_points
 Bbox[] bbox_results
 sensor_msgs/Image picking_head_output
 sensor_msgs/Image[] mask_result
-geometry_msgs/Pose pick_pose
+
+
+# waypoint and gripper width
+
+geometry_msgs/Pose pick_pose1
+geometry_msgs/Pose pick_pose2
+
+double gripper_width
