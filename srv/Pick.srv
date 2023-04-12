@@ -1,7 +1,7 @@
 uint8 homeid 
 geometry_msgs/Pose homecoords
 
-geometry_msgs/Pose pickcoords
+geometry_msgs/Pose[] pickcoords
 
 ---
 
