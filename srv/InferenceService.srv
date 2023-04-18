@@ -24,4 +24,4 @@ sensor_msgs/Image[] mask_result
 geometry_msgs/Pose pick_pose1
 geometry_msgs/Pose pick_pose2
 
-double gripper_width
+float32 gripper_width
