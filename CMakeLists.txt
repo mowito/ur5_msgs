@@ -18,6 +18,7 @@ set(srv_files
   srv/plc_srvs/MoveToAisle.srv
   srv/plc_srvs/MoveHorizontal.srv
   srv/plc_srvs/MoveVertical.srv
+  srv/plc_srvs/PushPullCrate.srv
   srv/plc_srvs/MoveMobileBase.srv
   srv/plc_srvs/PlcCommand.srv
   srv/plc_srvs/SetAisle.srv
@@ -37,6 +38,7 @@ set(srv_files
   srv/Mission.srv
   srv/Order.srv
   srv/GoToGoal.srv
+  srv/HomingDexter.srv
 
   srv/MotorStatus.srv
   srv/PositionControl.srv
@@ -68,7 +70,7 @@ set(msg_files
   msg/OrderFileList.msg
   msg/MaskCoords.msg
   msg/Bbox.msg
-
+  msg/DexterStatus.msg
 )
 
 if(BUILD_TESTING)
