@@ -1,5 +1,5 @@
-
-float32 dist 0.0
+float32 dist 0.0    # distance in meters to move
+uint8 dexter_id
 
 ---
 
