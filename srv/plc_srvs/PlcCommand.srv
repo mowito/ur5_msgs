@@ -1,4 +1,4 @@
-
+uint8 dexter_id     #id of the dexter.
 string command
 
 ---
