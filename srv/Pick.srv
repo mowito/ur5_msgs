@@ -3,7 +3,7 @@ geometry_msgs/Pose homecoords
 
 geometry_msgs/Pose[] pickcoords
 
-float gripper_width
+float32 gripper_width
 
 ---
 
