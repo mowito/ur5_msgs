@@ -3,6 +3,8 @@ geometry_msgs/Pose homecoords
 
 geometry_msgs/Pose[] pickcoords
 
+float gripper_width
+
 ---
 
 bool bsuccess

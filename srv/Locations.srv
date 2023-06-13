@@ -7,4 +7,5 @@ uint32 x_min	#x coordinate of top left corner of  subsection bbox
 uint32 y_min	#y coordinate of top left corner of  subsection bbox
 ---
 geometry_msgs/Pose[] points   #3d pose in camera optical frame for only centroids which lie in feasible region of image
+float gripper_width
 bool bsuccess
