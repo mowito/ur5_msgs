@@ -39,6 +39,7 @@ set(srv_files
   srv/Order.srv
   srv/GoToGoal.srv
   srv/HomingDexter.srv
+  srv/HomingSpecific.srv
 
   srv/MotorStatus.srv
   srv/PositionControl.srv

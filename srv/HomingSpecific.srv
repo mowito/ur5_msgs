@@ -1,0 +1,14 @@
+uint8 dexter_id     # dexter_id for which homing is called.
+uint8 tla_id        # id of tla to be used for homing for tla-homing and vertical-homing 
+
+# enums for homing entity.
+uint8 NONE=0
+uint8 HORIZONTAL=1
+uint8 VERTICAL=2
+uint8 TLA=3
+
+uint8 entity 0        # [0,1,2,3] == [none, horizontal, vertical, tla]
+
+---
+
+bool success 
