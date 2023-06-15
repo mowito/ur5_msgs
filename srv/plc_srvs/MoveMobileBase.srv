@@ -1,8 +1,9 @@
 int32 col
 float32 hor_dist
 int32 row
-string rack_side
+string side
 uint8 dexter_id     #id of dexter to move. 
+uint8 tla_id     #id of tla to be used. 
 
 ---
 
