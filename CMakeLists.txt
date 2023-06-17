@@ -37,7 +37,8 @@ set(srv_files
   srv/Mission.srv
   srv/Order.srv
   srv/GoToGoal.srv
-
+  srv/Gripper.srv
+  srv/GripperStatus.srv
   srv/MotorStatus.srv
   srv/PositionControl.srv
   srv/PushPullArmControl.srv
