@@ -1,4 +1,5 @@
 int32 dist 0        #distance to move in mm
+int32 row           #location of the row
 string rack_side
 uint8 dexter_id     #id of the dexter to move.
 uint8 tla_id        # id of tla to be moved.

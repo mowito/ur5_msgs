@@ -1,7 +1,7 @@
 uint8 tla_id        # id of the tla to be used.
 int32 side          # +1/-1 for right/left side rack of the aisle.
 uint8 dexter_id     # id of the dexter to be used.
-int32 command 0     # +1/-1 for pulling/pushing, 0 for nothing.
+string command      
 
 ---
 
