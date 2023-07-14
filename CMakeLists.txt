@@ -49,6 +49,7 @@ set(srv_files
   srv/TfService.srv
   srv/BlendTrajectories.srv
   srv/InferenceService.srv
+  srv/plc_srvs/StaticPickingCall.srv
 )
 
 set(msg_files
