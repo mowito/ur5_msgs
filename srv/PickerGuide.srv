@@ -1,0 +1,6 @@
+string skuid
+uint8 qty
+
+---
+
+bool bsuccess
