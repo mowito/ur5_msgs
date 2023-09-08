@@ -1,5 +1,6 @@
 bool initiate
 sensor_msgs/Image image_to_be_picked_from
+float64[4] feasibility_zone
 ---
 float64 x
 float64 y

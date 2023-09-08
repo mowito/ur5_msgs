@@ -1,6 +1,6 @@
 
 string reg_addr
-uint32 data
+uint32 data     
 
 ---
 
