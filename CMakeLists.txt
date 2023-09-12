@@ -39,6 +39,7 @@ set(srv_files
   srv/Mission.srv
   srv/Order.srv
   srv/GoToGoal.srv
+  srv/PickerGuide.srv
 
   srv/MotorStatus.srv
   srv/PositionControl.srv
