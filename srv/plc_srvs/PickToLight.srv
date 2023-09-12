@@ -1,4 +1,5 @@
-
+string skuid
+uint8 qty
 uint8 level
 string order_no
 
