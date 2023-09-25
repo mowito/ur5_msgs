@@ -24,6 +24,8 @@ set(srv_files
   srv/plc_srvs/GetAisle.srv
   srv/plc_srvs/WriteToRegister.srv
   srv/plc_srvs/ReadRegister.srv
+  srv/plc_srvs/PickToLightPicking.srv
+  srv/plc_srvs/PickToLight.srv
 
   srv/Locations.srv
   srv/PollUserClickedPoint.srv
@@ -37,6 +39,7 @@ set(srv_files
   srv/Mission.srv
   srv/Order.srv
   srv/GoToGoal.srv
+  srv/PickerGuide.srv
 
   srv/MotorStatus.srv
   srv/PositionControl.srv
@@ -49,6 +52,7 @@ set(srv_files
   srv/TfService.srv
   srv/BlendTrajectories.srv
   srv/InferenceService.srv
+
 )
 
 set(msg_files
