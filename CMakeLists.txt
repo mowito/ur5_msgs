@@ -52,6 +52,8 @@ set(srv_files
   srv/TfService.srv
   srv/BlendTrajectories.srv
   srv/InferenceService.srv
+  
+  srv/SmartCartPicking.srv
 
 )
 
